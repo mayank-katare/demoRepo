@@ -1,0 +1,19 @@
+{
+  "name": "demorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ankitkh642/demoRepo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ankitkh642/demoRepo/issues"
+  },
+  "homepage": "https://github.com/Ankitkh642/demoRepo#readme"
+}
