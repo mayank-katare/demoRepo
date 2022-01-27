@@ -11,14 +11,14 @@ const parseXML=function(path){
             return err;
         }
         else{
-            fs.readFileSync(path,'utf-8',(err,data)=>{
+            fs.readFile(path,'utf-8',(err,data)=>{
                 if(err)
                 {
                     console.log('error');
                     return err;
                 }
                 const obj=parse(data);
-                console.log(inspect(obj,{depth:Infinity}));
+                console.log(inspect(obj,{colors:true,depth:Infinity}));
             })
         }
     })
